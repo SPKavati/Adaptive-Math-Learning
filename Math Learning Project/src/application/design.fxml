@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="300.0" style="-fx-background-color: #428bca;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main_Controller">
+   <children>
+      <Label layoutX="94.0" layoutY="93.0" prefHeight="37.0" prefWidth="125.0" text="QA APP" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="teach" layoutX="69.0" layoutY="182.0" prefHeight="40.0" prefWidth="175.0" promptText="Teacher" />
+      <ComboBox fx:id="stud" layoutX="69.0" layoutY="252.0" prefHeight="40.0" prefWidth="175.0" promptText="Student" />
+      <Button fx:id="btn" layoutX="96.0" layoutY="324.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="110.0" text="Submit" />
+   </children>
+</AnchorPane>
